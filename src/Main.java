@@ -6,5 +6,11 @@ public class Main {
 
         cica.sayHello();
         cica.sayHelloTo("Lili");
+
+        Seagull bird = new Seagull();
+        bird.setName("Scuttle");
+        bird.setAge(34);
+
+        bird.sayHello("Lia");
     }
 }
